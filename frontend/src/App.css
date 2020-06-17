@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body{
+  background-image: url('./img/euro-1353420_1920.jpg') ;
+}
+
+header{
+  font-family: 'Roboto', sans-serif;
+  
+  
+}
+
+* {
+  margin-top: 0px;
+  
+}
+
+legend{
+  display: flex;
+  text-align: center;
+
+}
+
+form {
+  background-color: #bcbd87;
+  /*preenchimento da caixa ponto de coleta */
+  padding: 14px;
+
+  margin: 40px auto;
+  border-radius: 8px;
+  margin-top: 10px;
+  max-width: 630px;
+
+  box-sizing: border-box;
+}
+
+form fieldset{
+  margin-top: 24px;
+  border: 0;
+
+}
+
+form legend {
+  margin-bottom: 20px;
+
+}
+
+form fieldset btn {
+    
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 24px; 
+}
+
+fieldset{
+    
+    padding: 14px;
+    margin-left: 24px;
+    margin: 20px auto;
+    border-radius: 8px;
+    margin-top: 40px;
+    max-width: 430px;
+
+    box-sizing: border-box;   
+
+}
+form input{
+    /* cor preenchimento dados */
+    background-color: #e6e6ee;
+    border: 0;
+    display: flex;
+    
+    padding: 8px 20px;
+    font-size: 30px;
+    /*outline:none;*/
+    
+
+    border-radius: 8px;
+
+    
+}
+
+form select{
+  /* cor preenchimento dados */
+  background-color: #e6e6ee;
+  border: 0;
+  display: flex;
+  
+  padding: 8px 20px;
+  font-size: 30px;
+  /*outline:none;*/
+  
+
+  border-radius: 8px;
+
+  
+}
+
+form .d{
+  font-size: 20px;
+  background-color: #d5d5e7;
+}
+
+
+
+form label{
+  font-size: 14px;
+  margin-bottom: 8px;
+  text-align: center;
+  align-items: center;
+}
+
+form .fieldset{
+  margin-left: 24px;
+
+}
+
+fieldset button{
+  width: 260px;
+    height: 56px;
+
+    background-color: #106335;
+    border-radius: 8px;
+
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+
+    border: 0;
+    margin-left: 80px;
+    margin-top: 40px;
+    transition: background-color 400ms;
+
+}
+
+fieldset button:hover{
+  background-color: #2fb862;
+}
+
